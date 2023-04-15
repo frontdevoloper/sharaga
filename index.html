@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Josefin+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <title>Строительcтво домов под ключ</title>
+</head>
+
+<body>
+   <header class="header">
+   <div class="container">
+      <div class="header__wrapper">
+         <div class="header__logo">
+            <a href="#">
+               <a href="index.html">
+                  <picture><source srcset="img/main/logo.webp" type="image/webp"><img src="img/main/logo.png" alt="HouseFactory" class="header__logo" title="Вернуться на главную"></picture>
+               </a>
+            </a>
+         </div>
+
+         <nav class="menu">
+            <ul class="menu__links">
+               <li>
+                  <a href="index.html" class="menu__link">
+                     Главная
+                     <span"></span>
+                  </a>
+
+               </li>
+               <li>
+                  <a href="#about" class="menu__link">
+                     О нас
+                  </a>
+               </li>
+               <li>
+                  <a href="#services" class="menu__link">Услуги</a>
+                  <span class="menu__arrow arrow"></span>
+                  <ul class="sub-menu__links">
+                     <li>                        
+                        <a class="sub-menu__link link_1" href="services-turnkey-house.html">Дом под ключ</a>
+                     </li>
+                     <li>
+                        <a class="sub-menu__link" href="construction-services-page.html">Строительные работы</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#" class="menu__link">
+                     Цены
+                  </a>
+
+               </li>
+               <li>
+                  <a href="#faq" class="menu__link">
+                     FAQ
+                  </a>
+
+               </li>
+               <li>
+                  <a href="#contacts" class="menu__link">
+                     Контакты
+                  </a>
+               </li>
+            </ul>
+         </nav>
+
+         <div class="header__call">
+            <div class="header__tel">
+               <a class="tel" href="tel:+79994959102">+7 (999) 495 91 02</a>
+            </div>
+            <div class="header__call-back">
+               <a href="" class="header__btn-cal btn">Заказать звонок</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+   <main class="main">
+      <section class="main__first-view first-view">
+         <div class="container">
+            <div class="first-view__wrapper">
+               <div class="first-view__offer">
+                  <h1 class="first-view__title">Строительство домов <br> под ключ</h1>
+                  <p class="first-view__text">Дом вашей мечты это не сон, это реальность </p>
+                  <div class="first-view__btn btn-first-view">
+                     <a href="#" class="btn-first-view__btn btn-v2">Подробнее</a>
+                     <a href="#" class="btn-first-view__btn btn-v2">Заказать дом</a>
+                  </div>
+               </div>
+               <div class="calculation">
+                  <div class="calculation__title">Расчитайте стоимость вашего проекта</div>
+                  <div class="calculation__wrapper">
+                     <div class="calculation__input input-calculation">
+                        <div class="input-calculation__text">Материал</div>
+                        <div class="input-calculation__input inpt">
+                           <input list="material" type="text" class="cost-input" required>
+                           <datalist id="material">
+                              <option value="Веб программирование">
+                              <option value="Разработчик игр">
+                              <option value="Информационные технологии">
+                           </datalist>
+                        </div>
+                     </div>
+                     <div class="calculation__input input-calculation">
+                        <div class="input-calculation__text">Фундамент</div>
+                        <div class="input-calculation__input inpt">
+                           <input list="foundation" type="text" class="cost-input" required>
+                           <datalist id="foundation">
+                              <option value="Веб программирование">
+                              <option value="Разработчик игр">
+                              <option value="Информационные технологии">
+                           </datalist>
+                        </div>
+                     </div>
+                     <div class="calculation__input input-calculation">
+                        <div class="input-calculation__text">Межэтажние <br> покрытия</div>
+                        <div class="input-calculation__input inpt">
+                           <input list="interfloor" type="text" class="cost-input" required>
+                           <datalist id="interfloor">
+                              <option value="Веб программирование">
+                              <option value="Разработчик игр">
+                              <option value="Информационные технологии">
+                           </datalist>
+                        </div>
+                     </div>
+                     <div class="calculation__input input-calculation">
+                        <div class="input-calculation__text">Количество <br> этажей</div>
+                        <div class="input-calculation__input inpt">
+                           <input list="material" type="number" class="cost-input" required>
+
+                        </div>
+                     </div>
+                     <div class="calculation__input input-calculation">
+                        <div class="input-calculation__text">Площадь <br> участка / м2</div>
+                        <div class="input-calculation__input inpt">
+                           <input list="area" type="text" class="cost-input" required>
+
+                        </div>
+                     </div>
+                     <div class="calculation__btn btn">
+                        <a href="#">Посчитать</a>
+                     </div>
+                     <div class="calculation__input input-calculation">
+                        <div class="input-calculation__text">Сумма</div>
+                        <div class="input-calculation__input inpt">
+                           <input list="area" type="number" class="cost-input" required>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="first-view__scroll">
+               <picture><source srcset="img/main/scroll_ico.svg" type="image/webp"><img src="img/main/scroll_ico.svg" alt="Прокрути вниз" class="scroll"></picture>
+            </div>
+         </div>
+      </section>
+      <section id="services" class="main__services services-main">
+         <div class="container">
+            <h2 class="services-main__title title">Наши услуги</h2>
+            <div class="services-main__wrapper">
+               <div class="services-main__service service-main">
+                  <div class="service-main__wrapper">
+                     <div class="service-main__img">
+                        <picture><source srcset="img/main/Services_img_1.webp" type="image/webp"><img src="img/main/Services_img_1.png" alt="Строительство под ключ"></picture>
+                     </div>
+                     <div class="service-main__column">
+                        <div class="service-main__tittle">Строительство под ключ</div>
+                        <p class="service-main__text">
+                           lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua.....
+                        </p>
+                     </div>
+                     <picture><source srcset="img/main/norm_arrow.svg" type="image/webp"><img class="service-main__arrow arow" src="img/main/norm_arrow.svg" alt=""></picture>
+                  </div>
+                  <div class="service-main__details details">
+                     <div class="details__title">Описание</div>
+                     <div class="details__text">
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                     </div>
+                     <div class="details__prices">
+                        <div class="details__price">Цена: 25000 / м2</div>
+                        <div class="details__button">
+                           <a href="#" class="details__btn btn">Расчитать</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services-main__service service-main">
+                  <div class="service-main__wrapper">
+                     <div class="service-main__img">
+                        <picture><source srcset="img/main/Services_img_4.webp" type="image/webp"><img src="img/main/Services_img_4.png" alt="Строительные услуги"></picture>
+                     </div>
+                     <div class="service-main__column">
+                        <div class="service-main__tittle">Строительство коробки</div>
+                        <p class="service-main__text">
+                           lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua.....
+                        </p>
+                     </div>
+                     <picture><source srcset="img/main/norm_arrow.svg" type="image/webp"><img class="service-main__arrow" src="img/main/norm_arrow.svg" alt=""></picture>
+                  </div>
+                  <div class="service-main__details details">
+                     <div class="details__title">Описание</div>
+                     <div class="details__text">
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                     </div>
+                     <div class="details__prices">
+                        <div class="details__price">Цена: 25000 / м2</div>
+                        <div class="details__button">
+                           <a href="#" class="details__btn btn">Расчитать</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services-main__service service-main">
+                  <div class="service-main__wrapper">
+                     <div class="service-main__img">
+                        <picture><source srcset="img/main/Services_img_2.webp" type="image/webp"><img src="img/main/Services_img_2.png" alt="Строительство под ключ"></picture>
+                     </div>
+                     <div class="service-main__column">
+                        <div class="service-main__tittle">Строительство под ключ</div>
+                        <p class="service-main__text">
+                           lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua.....
+                        </p>
+                     </div>
+                     <picture><source srcset="img/main/norm_arrow.svg" type="image/webp"><img class="service-main__arrow" src="img/main/norm_arrow.svg" alt=""></picture>
+                  </div>
+                  <div class="service-main__details details">
+                     <div class="details__title">Описание</div>
+                     <div class="details__text">
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                     </div>
+                     <div class="details__prices">
+                        <div class="details__price">Цена: 25000 / м2</div>
+                        <div class="details__button">
+                           <a href="#" class="details__btn btn">Расчитать</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services-main__service service-main">
+                  <div class="service-main__wrapper">
+                     <div class="service-main__img">
+                        <picture><source srcset="img/main/Services_img_5.webp" type="image/webp"><img src="img/main/Services_img_5.png" alt="Строительные услуги"></picture>
+                     </div>
+                     <div class="service-main__column">
+                        <div class="service-main__tittle">Консультация</div>
+                        <p class="service-main__text">
+                           lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua.....
+                        </p>
+                     </div>
+                     <picture><source srcset="img/main/norm_arrow.svg" type="image/webp"><img class="service-main__arrow" src="img/main/norm_arrow.svg" alt=""></picture>
+                  </div>
+                  <div class="service-main__details details">
+                     <div class="details__title">Описание</div>
+                     <div class="details__text">
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                     </div>
+                     <div class="details__prices">
+                        <div class="details__price">Цена: 25000 / м2</div>
+                        <div class="details__button">
+                           <a href="#" class="details__btn btn">Расчитать</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services-main__service service-main">
+                  <div class="service-main__wrapper">
+                     <div class="service-main__img">
+                        <picture><source srcset="img/main/Services_img_3.webp" type="image/webp"><img src="img/main/Services_img_3.png" alt="Создание готовго проекта"></picture>
+                     </div>
+                     <div class="service-main__column">
+                        <div class="service-main__tittle">Строительство под ключ</div>
+                        <p class="service-main__text">
+                           lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua.....
+                        </p>
+                     </div>
+                     <picture><source srcset="img/main/norm_arrow.svg" type="image/webp"><img class="service-main__arrow" src="img/main/norm_arrow.svg" alt=""></picture>
+                  </div>
+                  <div class="service-main__details details">
+                     <div class="details__title">Описание</div>
+                     <div class="details__text">
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                     </div>
+                     <div class="details__prices">
+                        <div class="details__price">Цена: 25000 / м2</div>
+                        <div class="details__button">
+                           <a href="#" class="details__btn btn">Расчитать</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services-main__service service-main">
+                  <div class="service-main__wrapper">
+                     <div class="service-main__img">
+                        <picture><source srcset="img/main/Services_img_6.webp" type="image/webp"><img src="img/main/Services_img_6.png" alt="Строительство под ключ"></picture>
+                     </div>
+                     <div class="service-main__column">
+                        <div class="service-main__tittle">Внутренняя отделка</div>
+                        <p class="service-main__text">
+                           lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                           eiusmod tempor incididunt ut labore et dolore magna aliqua.....
+                        </p>
+                     </div>
+                     <picture><source srcset="img/main/norm_arrow.svg" type="image/webp"><img class="service-main__arrow" src="img/main/norm_arrow.svg" alt=""></picture>
+                  </div>
+                  <div class="service-main__details details">
+                     <div class="details__title">Описание</div>
+                     <div class="details__text">
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                     </div>
+                     <div class="details__prices">
+                        <div class="details__price">Цена: 25000 / м2</div>
+                        <div class="details__button">
+                           <a href="#" class="details__btn btn">Расчитать</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="service-main__btn btn" href="#">Посмотреть еще</a>
+            </div>
+         </div>
+      </section>
+      <section id="about" class="about">
+         <div class="container">
+            <h2 class="about__title title">О нас</h2>
+            <p class="about__text">
+               Наша компании существует на рынке более 2 лет. За это время мы помогли осуществить мечту многим нашим
+               клиентам. Мы заработали репутацию честной строительной компании, что доказывает большое количество
+               отзывов.
+               Компания недвижимости занимается постройкой недвижимости для частных и корпоративных лиц. Наш приоритет в
+               том, чтобы наши клиенты остались довольны и жили там, где хотят и в безопасности. Наша главная задача
+               чтобы подобратьнужный ему проект в зависимости от его пожеланий. Клиент может выбрать из предложенных
+               вариантов или предложить свой макет
+            </p>
+         </div>
+      </section>
+      <section class="advantages">
+         <div class="container">
+            <div class="advantages__title title">Почему выбирают именно нас?</div>
+            <div class="advantages__wrapper">
+               <div class="advantages__content">
+                  <div class="advantages__text">
+                     В первую очередь нам важно чтобы проект подходил именно вам, поэтому составляем подробное тз, где
+                     выявляем все ваши потребности;
+                  </div>
+               </div>
+               <div class="advantages__content">
+                  <div class="advantages__text">
+                     В первую очередь нам важно чтобы проект подходил именно вам, поэтому составляем подробное тз, где
+                     выявляем все ваши потребности;
+                  </div>
+               </div>
+               <div class="advantages__content">
+                  <div class="advantages__text">
+                     В первую очередь нам важно чтобы проект подходил именно вам, поэтому составляем подробное тз, где
+                     выявляем все ваши потребности;
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="portfolio">
+         <div class="container">
+            <div class="portfolio__wrapper">
+   <div class="portfolio__title title">Дома которые мы уже построили</div>
+   <div class="portfolio-slider swiper-container">
+      <div class="portfolio-slider__wrapper swiper-wrapper">
+         <div class="portfolio-slider__slide swiper-slide">
+            <div class="portfolio-slider__container slider-img">
+               <div class="slider-img swiper-container">
+                  <div class="slider-img__wrapper swiper-wrapper">
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_1.webp" type="image/webp"><img src="img/main/house_1.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_1.webp" type="image/webp"><img src="img/main/house_1.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_1.webp" type="image/webp"><img src="img/main/house_1.png" alt="Дом"></picture>
+                     </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+               <div class="portfolio-slider__title">Загородный дом 125х130</div>
+               <div class="portfolio-slider__text">
+                  lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </div>
+               <a class="portfolio-slider__btn btn" href="#"> Подробнее</a>
+            </div>
+         </div>
+         <div class="portfolio-slider__slide swiper-slide">
+            <div class="portfolio-slider__container slider-img">
+               <div class="slider-img swiper-container">
+                  <div class="slider-img__wrapper swiper-wrapper">
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_2.webp" type="image/webp"><img src="img/main/house_2.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_2.webp" type="image/webp"><img src="img/main/house_2.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_2.webp" type="image/webp"><img src="img/main/house_2.png" alt="Дом"></picture>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+               <div class="portfolio-slider__title">Одноэтажный дом </div>
+               <div class="portfolio-slider__text">
+                  lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </div>
+               <a class="portfolio-slider__btn btn" href="#"> Подробнее</a>
+            </div>
+         </div>
+         <div class="portfolio-slider__slide swiper-slide">
+            <div class="portfolio-slider__container slider-img">
+               <div class="slider-img swiper-container">
+                  <div class="slider-img__wrapper swiper-wrapper">
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_3.webp" type="image/webp"><img src="img/main/house_3.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_3.webp" type="image/webp"><img src="img/main/house_3.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_3.webp" type="image/webp"><img src="img/main/house_3.png" alt="Дом"></picture>
+                     </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+               <div class="portfolio-slider__title">Двуэтажный особняк</div>
+               <div class="portfolio-slider__text">
+                  lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </div>
+               <a class="portfolio-slider__btn btn" href="#"> Подробнее</a>
+            </div>
+         </div>
+         <div class="portfolio-slider__slide swiper-slide">
+            <div class="portfolio-slider__container slider-img">
+               <div class="slider-img swiper-container">
+                  <div class="slider-img__wrapper swiper-wrapper">
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_4.webp" type="image/webp"><img src="img/main/house_4.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_4.webp" type="image/webp"><img src="img/main/house_4.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_4.webp" type="image/webp"><img src="img/main/house_4.png" alt="Дом"></picture>
+                     </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+               <div class="portfolio-slider__title">Одноэтажный частный дом 100х150</div>
+               <div class="portfolio-slider__text">
+                  lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </div>
+               <a class="portfolio-slider__btn btn" href="#"> Подробнее</a>
+            </div>
+         </div>
+         <div class="portfolio-slider__slide swiper-slide">
+            <div class="portfolio-slider__container slider-img">
+               <div class="slider-img swiper-container">
+                  <div class="slider-img__wrapper swiper-wrapper">
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_5.webp" type="image/webp"><img src="img/main/house_5.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_5.webp" type="image/webp"><img src="img/main/house_5.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_5.webp" type="image/webp"><img src="img/main/house_5.png" alt="Дом"></picture>
+                     </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+               <div class="portfolio-slider__title">Домик в горах</div>
+               <div class="portfolio-slider__text">
+                  lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </div>
+               <a class="portfolio-slider__btn btn" href="#"> Подробнее</a>
+            </div>
+         </div>
+         <div class="portfolio-slider__slide swiper-slide">
+            <div class="portfolio-slider__container slider-img">
+               <div class="slider-img swiper-container">
+                  <div class="slider-img__wrapper swiper-wrapper">
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_6.webp" type="image/webp"><img src="img/main/house_6.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_6.webp" type="image/webp"><img src="img/main/house_6.png" alt="Дом"></picture>
+                     </div>
+                     <div class="slider-img__slide swiper-slide">
+                        <picture><source srcset="img/main/house_6.webp" type="image/webp"><img src="img/main/house_6.png" alt="Дом"></picture>
+                     </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+               <div class="portfolio-slider__title">Особняк на берегу озера</div>
+               <div class="portfolio-slider__text">
+                  lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </div>
+               <a class="portfolio-slider__btn btn" href="#"> Подробнее</a>
+            </div>
+         </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+   </div>
+</div>
+         </div>
+      </section>
+      <section id="faq" class="faq">
+         <div class="container">
+            <div class="faq__title title">Часто задаваемые вопросы</div>
+            <div class="faq__questions">
+               <div class="faq__question">
+                  <div class="faq__content">
+                     <div class="faq__title-question">1. Даете ли вы гарантию?</div>
+                     <div class="faq__arrow arow">
+                        <picture><source srcset="img//main/norm_arrow.svg" type="image/webp"><img src="img//main/norm_arrow.svg" alt="arrow"></picture>
+                     </div>
+                  </div>
+                  <div class="faq__answer">
+                     <p>
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                  </div>
+               </div>
+               <div class="faq__question">
+                  <div class="faq__content">
+                     <div class="faq__title-question">2. Вы работаете с материнским капиталом?</div>
+                     <div class="faq__arrow">
+                        <picture><source srcset="img//main/norm_arrow.svg" type="image/webp"><img src="img//main/norm_arrow.svg" alt="arrow"></picture>
+                     </div>
+                  </div>
+                  <div class="faq__answer">
+                     <p>
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                  </div>
+               </div>
+               <div class="faq__question">
+                  <div class="faq__content">
+                     <div class="faq__title-question">3. Вы строите в кредит? Есть рассрочка?</div>
+                     <div class="faq__arrow">
+                        <picture><source srcset="img//main/norm_arrow.svg" type="image/webp"><img src="img//main/norm_arrow.svg" alt="arrow"></picture>
+                     </div>
+                  </div>
+                  <div class="faq__answer">
+                     <p>
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                  </div>
+               </div>
+               <div class="faq__question">
+                  <div class="faq__content">
+                     <div class="faq__title-question">4. Можно ли сократить срок строительства?</div>
+                     <div class="faq__arrow">
+                        <picture><source srcset="img//main/norm_arrow.svg" type="image/webp"><img src="img//main/norm_arrow.svg" alt="arrow"></picture>
+                     </div>
+                  </div>
+                  <div class="faq__answer">
+                     <p>
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                  </div>
+               </div>
+               <div class="faq__question">
+                  <div class="faq__content">
+                     <div class="faq__title-question">5. Как протянуть электропроводку - скрытую или же открытую в
+                        кабель каналах?</div>
+                     <div class="faq__arrow">
+                        <picture><source srcset="img//main/norm_arrow.svg" type="image/webp"><img src="img//main/norm_arrow.svg" alt="arrow"></picture>
+                     </div>
+                  </div>
+                  <div class="faq__answer">
+                     <p>
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. lLorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contacts" class="call-back">
+   <div class="container">
+      <div class="call-back__wrapper">
+         <h3 class="call-back__title">Есть вопросы? <br> Наш специалист с вами свяжится</h3>
+         <form class="call-back__content" action="#" method="post">
+            <input class="call-back__name input-call" type="text" placeholder="Ваше имя">
+            <input class="call-back__phone input-call" type="tel" placeholder="Номер телефона">
+            <div class="call-back__services input-call">
+               <input class="call-back__service" type="text" placeholder="Услуга">
+               <input class="call-back__service" type="text" placeholder="Услуга">
+            </div>
+            <div class="call-back__active">
+               <a type="button" href="#" class="call-back__btn btn-v2">Заказать звонок</a>
+            </div>
+         </form>
+      </div>
+   </div>
+</section>
+   </main>
+
+   <footer class="footer">
+   <div class="container">
+      <div class="footer__content">
+         <picture><source srcset="img/main/logo.webp" type="image/webp"><img src="img/main/logo.png" alt="HouseFactory" class="footer__logo"></picture>
+         <p class="footer__copyright">
+            © HouseFactory inc. 2021
+         </p>
+      </div>
+   </div>
+</footer>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+
+</html>
